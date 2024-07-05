@@ -30,3 +30,10 @@ h1 {
 * {
    box-sizing: border-box; 
 }
+.qrcode {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
