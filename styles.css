@@ -2,4 +2,28 @@
     font-size: 11px;
     text-align: center;
     color: hsl(228, 45%, 44%)
+} html, body {
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 0;
+}
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100vw;
+min-height: 100vh;
+}
+div {
+    width: 100%;
+}
+p {
+    font-weight: 400vw;
+}
+h1 {
+    font-weight: 700vw;
+}
+* {
+   box-sizing: border-box; 
 }
