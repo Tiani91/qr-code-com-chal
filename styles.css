@@ -2,7 +2,8 @@
     font-size: 11px;
     text-align: center;
     color: hsl(228, 45%, 44%)
-} html, body {
+} 
+html, body {
     margin: 0;
     min-height: 100%;
     min-width: 100%;
@@ -20,9 +21,11 @@ div {
 }
 p {
     font-weight: 400vw;
+    display: inline-flex;
 }
 h1 {
     font-weight: 700vw;
+    display: inline-flex;
 }
 * {
    box-sizing: border-box; 
