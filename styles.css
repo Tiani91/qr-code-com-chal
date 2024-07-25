@@ -18,6 +18,7 @@ min-height: 100vh;
 }
 div {
     width: 100%;
+    display: flex;
 }
 p {
     font-weight: 400vw;
@@ -36,4 +37,6 @@ h1 {
     position: absolute;
     left: 80px;
     top: 80px;
+    width: 160px;
+    height: 160px;
 }
