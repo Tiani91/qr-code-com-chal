@@ -15,8 +15,7 @@ width: 100vw;
 min-height: 100vh;
 background-color: hsl(220, 15%, 55%);
 display: grid;
-justify-content: center;
-align-items: center;
+place-items: center;
 }
 .block {
     max-width: 360px;
