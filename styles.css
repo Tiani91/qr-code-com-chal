@@ -28,9 +28,38 @@ div {
     width: 100%;
     display: flex;
 }
-p {
+p, .scan {
     font-weight: 400vw;
-    display: inline-flex;
+    display: flex;
+    color: rgba(125, 136, 138, 1);
+    text-transform: none;
+    text-decoration: none;
+    line-break: auto;
+    white-space: break-spaces;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: inherit;
+    min-width: 100%;
+    margin-right: 1px;
+    vertical-align: top;
+    line-height: 1.2;
+    margin: 0;
+    text-align: center;
+    overflow-wrap: initial;
+    text-rendering: geometricPrecision;
+    caret-color: rgba(125,136,158,1);
+    letter-spacing: 0.187px;
+    font-size: 15px;
+    font-family: "Outfit";
+    font-style: normal;
+}
+
+.scan {
+    position: absolute;
+    left: 16px;
+    top: 72px;
+    width: 256px;
+    height: 54px;
 }
 h1 {
     font-weight: 700vw;
