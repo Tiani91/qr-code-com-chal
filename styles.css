@@ -7,14 +7,14 @@
 } 
 
 body {
-display: flex;
-justify-content: center;
-align-items: center;
 width: 100vw;
 min-height: 100vh;
 color: hsl(220, 15%, 55%);
 }
 .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 320px;
     padding: 16px;
     background-color: hsl(0, 0%, 100%);
