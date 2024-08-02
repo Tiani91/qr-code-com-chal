@@ -13,12 +13,12 @@
 body {
 width: 100vw;
 min-height: 100vh;
-color: hsl(220, 15%, 55%);
+background-color: hsl(220, 15%, 55%);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     max-width: 320px;
     padding: 16px;
     background-color: hsl(0, 0%, 100%);
