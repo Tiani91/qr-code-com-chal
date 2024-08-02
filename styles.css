@@ -19,30 +19,29 @@ justify-content: center;
 align-items: center;
 }
 .block {
-    max-width: 320px;
-    padding: 16px;
+    max-width: 360px;
+    padding:1.5rem;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 1.5rem;
 }
 .qr-code {
-    width: 100%;
     max-width: 100%;
-    border-radius:20px;
+    border-radius:1.5rem;
     object-fit: cover;
     justify-content: center;
 }
 .text {
 font-family: 'Outfit', sans-serif;
 text-align: center;
-padding: 10px;
+padding: 0.6rem;
 }
 h1 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: hsl(218, 44%, 22%)
 }
 p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
     color: hsl(212,  45%,  85%);
 }
