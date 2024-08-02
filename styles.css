@@ -17,11 +17,9 @@ width: 100vw;
 min-height: 100vh;
 }
 .rect {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 320px;
-    height: 497px;
+    max-width: 320px;
+    padding: 16px;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
 }
 div {
@@ -29,7 +27,7 @@ div {
     display: flex;
 }
 
-.scan {
+.text {
     position: absolute;
     left: 16px;
     top: 72px;
@@ -39,16 +37,14 @@ div {
 h1 {
     font-weight: 700vw;
     display: inline-flex;
+    overflow: auto;
 }
 * {
    box-sizing: border-box; 
 }
 .qrcode {
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    left: 80px;
-    top: 80px;
-    width: 160px;
-    height: 160px;
+    max-width: 100%;
+    border-radius:20px;
+    object-fit: cover;
+    justify-content: center;
 }
