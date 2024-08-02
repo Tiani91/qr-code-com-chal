@@ -24,7 +24,7 @@ body {
     border-radius: 1.5rem;
 }
 
-.qr-code {
+.block img {
     max-width: 100%;
     border-radius:1.5rem;
     object-fit: cover;
@@ -36,12 +36,12 @@ body {
     text-align: center;
     padding: 0.6rem;
 }
-h1 {
+.text h1 {
     font-weight: 700;
     font-size: 1.5rem;
     color: hsl(218, 44%, 22%)
 }
-p {
+.text p {
     font-weight: 400;
     font-size: 1rem;
     color: hsl(212,  45%,  85%);
