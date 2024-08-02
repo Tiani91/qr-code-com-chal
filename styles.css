@@ -20,6 +20,13 @@ color: hsl(220, 15%, 55%);
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
 }
+.qr-code {
+    width: 100%;
+    max-width: 100%;
+    border-radius:20px;
+    object-fit: cover;
+    justify-content: center;
+}
 .text {
 font-family: 'Outfit', sans-serif;
 text-align: center;
@@ -34,11 +41,4 @@ p {
     font-weight: 400;
     font-size: 15px;
     color: hsl(212,  45%,  85%);
-}
-.qr-code {
-    width: 100%;
-    max-width: 100%;
-    border-radius:20px;
-    object-fit: cover;
-    justify-content: center;
 }
