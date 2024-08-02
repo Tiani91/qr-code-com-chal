@@ -39,6 +39,7 @@ p {
    box-sizing: border-box; 
 }
 .qr-code {
+    width: 100%;
     max-width: 100%;
     border-radius:20px;
     object-fit: cover;
