@@ -22,17 +22,10 @@ min-height: 100vh;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
 }
-div {
-    width: 100%;
-    display: flex;
-}
-
 .text {
-    position: absolute;
-    left: 16px;
-    top: 72px;
-    width: 256px;
-    height: 54px;
+font-family: 'Outfit', sans-serif;
+text-align: center;
+padding: 10px;
 }
 h1 {
     font-weight: 700vw;
