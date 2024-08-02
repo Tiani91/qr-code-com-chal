@@ -35,9 +35,6 @@ p {
     font-size: 15px;
     color: hsl(212,  45%,  85%);
 }
-* {
-   box-sizing: border-box; 
-}
 .qr-code {
     width: 100%;
     max-width: 100%;
