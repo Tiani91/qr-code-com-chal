@@ -19,14 +19,14 @@ body {
 
 .block {
     max-width: 360px;
-    padding:1.25rem;
+    padding:1.5rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
 }
 
 .block img {
     max-width: 100%;
-    border-radius:0rem;
+    border-radius:1.5rem;
     object-fit: cover;
     justify-content: center;
 }
