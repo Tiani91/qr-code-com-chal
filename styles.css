@@ -13,7 +13,8 @@
 body {
     min-height: 100vh;
     background-color: hsl(220, 15%, 55%);
-    display: grid;
+    display: flex;
+    flex-direction: column;
     place-items: center;
 }
 
@@ -26,7 +27,7 @@ body {
 
 .block img {
     max-width: 100%;
-    border-radius:1.25rem;
+    border-radius:0rem;
     object-fit: cover;
     justify-content: center;
 }
@@ -38,7 +39,7 @@ body {
 }
 .text h1 {
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     color: hsl(218, 44%, 22%)
 }
 .text p {
