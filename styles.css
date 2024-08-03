@@ -13,16 +13,16 @@
 body {
     min-height: 100vh;
     background-color: hsl(220, 15%, 55%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .block {
     max-width: 360px;
-    padding:1.5rem;
+    padding:1rem;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .block img {
