@@ -8,11 +8,11 @@
     color: hsl(228, 45%, 44%);
     text-decoration: none;  
 } 
-.attribution a:visited {
+a:visited {
     color: hsl(218, 44%, 22%);
     text-decoration: wavy;
 }
-.attribution a:hover {
+a:hover {
     color: hsl(212,  45%,  85%);
     text-decoration: overline;
 }
