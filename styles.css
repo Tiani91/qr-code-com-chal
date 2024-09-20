@@ -2,9 +2,10 @@
     font-size: 0.6875rem;
     text-align: center;
     padding: 0.996rem;
+    color: hsl(228, 45%, 22%)
 }
 .attribution a{    
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 22%);
     text-decoration: none;  
 } 
 a:hover {
