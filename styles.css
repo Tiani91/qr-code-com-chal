@@ -54,6 +54,7 @@ body {
     font-size: 1.375rem;
     color: hsl(218, 44%, 22%);
     padding: 1.5rem;
+    margin-bottom: 0.533rem;
 }
 .text p {
     font-weight: 400;
